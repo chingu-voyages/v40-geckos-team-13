@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Featured from './components/Featured';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Newsletter from './components/Newsletter';
 
 const App = () => {
   return (
-    <div className='bg-slate-200 text-amber-600 font-bold grid justify-center items-center h-24'>Good luck!</div>
+    <div className='flex flex-col items-center'>
+        <Navbar />
+        <Hero />
+        <Featured />
+        <Newsletter />
+        <Footer />
+    </div>
   )
 }
 
-export default App
+export default App;
