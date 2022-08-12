@@ -1,17 +1,13 @@
 import React from 'react';
-import Featured from './components/Featured';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
+import LandingPage from './pages/LandingPage';
 
 const App = () => {
   return (
     <div className='flex flex-col items-center'>
         <Navbar />
-        <Hero />
-        <Featured />
-        <Newsletter />
+        <LandingPage />
         <Footer />
     </div>
   )
